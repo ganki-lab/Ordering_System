@@ -50,6 +50,18 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="analytics"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="order"
+        options={{
+          href: null,
+        }}
+      />
     </Tabs>
   );
 }
